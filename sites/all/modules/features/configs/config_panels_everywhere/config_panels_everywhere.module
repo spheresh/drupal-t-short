@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Config panels everywhere feature.
+ */
+
+include_once 'config_panels_everywhere.features.inc';

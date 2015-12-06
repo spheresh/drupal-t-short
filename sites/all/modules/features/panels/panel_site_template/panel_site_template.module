@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Panel site template feature.
+ */
+
+include_once 'panel_site_template.features.inc';

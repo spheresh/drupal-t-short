@@ -1,0 +1,46 @@
+name = Joined purchases
+description = Joined purchases modules and features.
+version = VERSION
+core = 7.x
+
+; Contrib
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = views
+dependencies[] = views_content
+dependencies[] = views_ui
+dependencies[] = panels
+dependencies[] = panels_everywhere
+dependencies[] = panels_mini
+dependencies[] = features
+dependencies[] = libraries
+dependencies[] = navbar
+dependencies[] = strongarm
+dependencies[] = diff
+
+; Custom
+
+; Features
+; Configs
+dependencies[] = config_theme
+dependencies[] = config_panels_everywhere
+
+; Panels
+dependencies[] = panel_site_template

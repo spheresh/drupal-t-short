@@ -1,0 +1,10 @@
+name = Panel site template
+core = 7.x
+package = Panels
+version = 7.x-1.0
+dependencies[] = ctools
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:2
+features[page_manager_handlers][] = site_template__panel_context_58b6e83c-dc76-4ce2-a1a1-6ae528f66364
+project path = sites/all/modules/features/panels
