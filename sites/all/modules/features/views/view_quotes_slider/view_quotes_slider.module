@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View quotes slider feature.
+ */
+
+include_once 'view_quotes_slider.features.inc';
