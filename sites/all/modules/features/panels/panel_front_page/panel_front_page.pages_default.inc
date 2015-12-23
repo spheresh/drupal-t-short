@@ -154,6 +154,25 @@ function panel_front_page_default_page_manager_pages() {
     $pane->uuid = '98f92d4c-7604-4da7-a4cb-8c6376adcf16';
     $display->content['new-98f92d4c-7604-4da7-a4cb-8c6376adcf16'] = $pane;
     $display->panels['region-header'][2] = 'new-98f92d4c-7604-4da7-a4cb-8c6376adcf16';
+    $pane = new stdClass();
+    $pane->pid = 'new-3d98bc8b-8312-4e87-85d2-8eb167668bc1';
+    $pane->panel = 'region-quote-slider';
+    $pane->type = 'views_panes';
+    $pane->subtype = 'quotes-quotes_slider_pane';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array();
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = '3d98bc8b-8312-4e87-85d2-8eb167668bc1';
+    $display->content['new-3d98bc8b-8312-4e87-85d2-8eb167668bc1'] = $pane;
+    $display->panels['region-quote-slider'][0] = 'new-3d98bc8b-8312-4e87-85d2-8eb167668bc1';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;

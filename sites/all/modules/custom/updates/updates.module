@@ -4,3 +4,14 @@
  * @file
  * updates.module file.
  */
+
+/**
+ * Implements hook_menu_site_status_alter().
+ */
+function updates_menu_site_status_alter(&$menu_site_status, $path) {
+  if (user_is_anonymous()) {
+    if ($path != 'i-love-drupal') {
+      drupal_goto('/');
+    }
+  }
+}

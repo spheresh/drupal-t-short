@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content type t-short feature.
+ */
+
+include_once 'content_type_t_short.features.inc';

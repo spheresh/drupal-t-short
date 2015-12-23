@@ -24,3 +24,13 @@ function updates_update_7004() {
     'panel_site_template',
   ));
 }
+
+/**
+ * Enable.
+ */
+function updates_update_7005() {
+  module_enable(array(
+    'content_type_slider_quote',
+    'content_type_t_short',
+  ));
+}
