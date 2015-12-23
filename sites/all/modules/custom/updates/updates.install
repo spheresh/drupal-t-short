@@ -34,3 +34,16 @@ function updates_update_7005() {
     'content_type_t_short',
   ));
 }
+
+/**
+ * Enable & revert.
+ */
+function updates_update_7006() {
+  module_enable(array(
+    'panel_mini_header',
+  ));
+
+  features_revert_module(array(
+    'panel_front_page',
+  ));
+}
