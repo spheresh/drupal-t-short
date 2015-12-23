@@ -1,0 +1,12 @@
+name = View t-shorts
+core = 7.x
+package = Views
+version = 7.x-1.0
+dependencies[] = views_content
+dependencies[] = views_load_more
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = t_shorts
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][views] = views
+project path = sites/all/modules/features/views

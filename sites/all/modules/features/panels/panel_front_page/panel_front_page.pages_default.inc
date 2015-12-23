@@ -155,6 +155,42 @@ function panel_front_page_default_page_manager_pages() {
     $display->content['new-3d98bc8b-8312-4e87-85d2-8eb167668bc1'] = $pane;
     $display->panels['region-quote-slider'][0] = 'new-3d98bc8b-8312-4e87-85d2-8eb167668bc1';
     $pane = new stdClass();
+    $pane->pid = 'new-1625f861-959c-41a9-a79c-8b2d843e614f';
+    $pane->panel = 'region-t-shorts';
+    $pane->type = 'views';
+    $pane->subtype = 't_shorts';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_pager_settings' => 0,
+      'use_pager' => 1,
+      'nodes_per_page' => '4',
+      'pager_id' => '0',
+      'offset' => '0',
+      'more_link' => 0,
+      'feed_icons' => 0,
+      'panel_args' => 0,
+      'link_to_view' => 0,
+      'args' => '',
+      'url' => '',
+      'display' => 'default',
+      'override_title' => 1,
+      'override_title_text' => 'Футболки',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+      'style' => 'naked',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = '1625f861-959c-41a9-a79c-8b2d843e614f';
+    $display->content['new-1625f861-959c-41a9-a79c-8b2d843e614f'] = $pane;
+    $display->panels['region-t-shorts'][0] = 'new-1625f861-959c-41a9-a79c-8b2d843e614f';
+    $pane = new stdClass();
     $pane->pid = 'new-c1b0a15b-46db-4656-b36e-9c2d39df3a0c';
     $pane->panel = 'region-wtf';
     $pane->type = 'custom';
@@ -164,7 +200,7 @@ function panel_front_page_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Wtf?',
       'title' => '',
-      'body' => '<div class="wtf-wrapper"><h2>Что это?</h2><p>Мы любим Drupal. Если Вы любите Drupal так же как и мы, то этот сайт для Вас. Надеюсь, мы подняли Вам настроение. Кстати, <a href="#">зацените наши футболки</a>.</p></div>',
+      'body' => '<div class="wtf-wrapper"><p>Мы любим Drupal. Если Вы любите Drupal так же как и мы, то этот сайт для Вас. Надеюсь, мы подняли Вам настроение. Кстати, <a href="#">зацените наши футболки</a>.</p></div>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );

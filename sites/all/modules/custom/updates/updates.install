@@ -53,10 +53,24 @@ function updates_update_7006() {
   module_enable(array(
     'panel_mini_header',
     'panel_mini_footer',
+    'view_t_shorts',
   ));
 
   _features_revert_module(array(
     'panel_front_page',
     'content_type_t_short',
+  ));
+}
+
+/**
+ * Enable.
+ */
+function updates_update_7007() {
+  module_enable(array(
+    'views_load_more',
+  ));
+
+  _features_revert_module(array(
+    'view_t_shorts',
   ));
 }

@@ -10,7 +10,9 @@
  */
 function updates_menu_site_status_alter(&$menu_site_status, $path) {
   if (user_is_anonymous()) {
-    if ($path != 'i-love-drupal') {
+    if ($path != 'i-love-drupal' &&
+      $path != 'views/ajax'
+    ) {
       drupal_goto('/');
     }
   }
