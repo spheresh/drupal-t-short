@@ -52,6 +52,11 @@ function panel_front_page_default_page_manager_pages() {
       'region-header' => NULL,
       'region-content' => NULL,
       'region-footer' => NULL,
+      'region-quote-slider' => NULL,
+      'region-wtf' => NULL,
+      'region-t-shorts' => NULL,
+      'region-team' => NULL,
+      'region-contacts' => NULL,
     ),
   );
   $display->cache = array();
@@ -59,6 +64,48 @@ function panel_front_page_default_page_manager_pages() {
   $display->uuid = '1cacbee8-4271-4fc8-a19b-23b67449f96e';
   $display->content = array();
   $display->panels = array();
+    $pane = new stdClass();
+    $pane->pid = 'new-fdf14b47-12d9-46e3-8a88-da6b0406a6ef';
+    $pane->panel = 'region-header';
+    $pane->type = 'page_logo';
+    $pane->subtype = 'page_logo';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array();
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'fdf14b47-12d9-46e3-8a88-da6b0406a6ef';
+    $display->content['new-fdf14b47-12d9-46e3-8a88-da6b0406a6ef'] = $pane;
+    $display->panels['region-header'][0] = 'new-fdf14b47-12d9-46e3-8a88-da6b0406a6ef';
+    $pane = new stdClass();
+    $pane->pid = 'new-98f92d4c-7604-4da7-a4cb-8c6376adcf16';
+    $pane->panel = 'region-header';
+    $pane->type = 'block';
+    $pane->subtype = 'menu-menu-i-love-drupal';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $pane->uuid = '98f92d4c-7604-4da7-a4cb-8c6376adcf16';
+    $display->content['new-98f92d4c-7604-4da7-a4cb-8c6376adcf16'] = $pane;
+    $display->panels['region-header'][1] = 'new-98f92d4c-7604-4da7-a4cb-8c6376adcf16';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
