@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * @file
+ * updates.install file.
+ */
+
+function updates_update_7003() {
+  features_revert_module(array(
+    'panel_front_page',
+  ));
+}

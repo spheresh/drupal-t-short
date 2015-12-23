@@ -1,0 +1,7 @@
+name = I love Drupal
+description = I love Drupal theme
+core = 7.x
+
+stylesheets[screen][] = css/i_love_drupal.css
+scripts[] = js/i_love_drupal.js
+plugins[panels][layouts] = plugins/layouts

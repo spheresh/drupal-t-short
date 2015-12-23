@@ -11,7 +11,7 @@
  *
  * @see system_install()
  */
-function joined_purchases_install() {
+function i_love_drupal_install() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
