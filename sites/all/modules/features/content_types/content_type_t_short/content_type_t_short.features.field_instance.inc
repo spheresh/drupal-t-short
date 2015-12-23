@@ -10,6 +10,49 @@
 function content_type_t_short_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'node-t_short-field_best_choice'.
+  $field_instances['node-t_short-field_best_choice'] = array(
+    'bundle' => 't_short',
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_best_choice',
+    'label' => 'Best choice',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'display_label' => 1,
+      ),
+      'type' => 'options_onoff',
+      'weight' => -2,
+    ),
+  );
+
   // Exported field_instance: 'node-t_short-field_image'.
   $field_instances['node-t_short-field_image'] = array(
     'bundle' => 't_short',
@@ -94,7 +137,7 @@ function content_type_t_short_field_default_field_instances() {
       'max' => '',
       'min' => '',
       'prefix' => '',
-      'suffix' => '',
+      'suffix' => 'грн',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -108,6 +151,7 @@ function content_type_t_short_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Best choice');
   t('Image');
   t('Price');
 
