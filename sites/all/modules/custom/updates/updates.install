@@ -6,6 +6,17 @@
  */
 
 /**
+ * Helper function.
+ */
+function _features_revert_module($features) {
+  foreach ($features as $feature) {
+    $feature = features_get_features($feature);
+    $components = array_keys($feature->info['features']);
+    features_revert(array($feature => $components));
+  }
+}
+
+/**
  * Revert.
  */
 function updates_update_7003() {
@@ -41,9 +52,10 @@ function updates_update_7005() {
 function updates_update_7006() {
   module_enable(array(
     'panel_mini_header',
+    'panel_mini_footer',
   ));
 
-  features_revert_module(array(
+  _features_revert_module(array(
     'panel_front_page',
   ));
 }
