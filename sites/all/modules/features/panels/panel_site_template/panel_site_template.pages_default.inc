@@ -48,12 +48,41 @@ function panel_site_template_default_page_manager_handlers() {
       'default' => NULL,
       'middle' => NULL,
     ),
+    'middle' => array(
+      'style' => 'naked',
+    ),
+    'style' => 'naked',
   );
   $display->cache = array();
   $display->title = '';
   $display->uuid = '3520c63a-dea1-4ac3-90ac-b7762dee451a';
   $display->content = array();
   $display->panels = array();
+    $pane = new stdClass();
+    $pane->pid = 'new-911560c0-14b3-4686-b745-86ac34414255';
+    $pane->panel = 'middle';
+    $pane->type = 'page_content';
+    $pane->subtype = 'page_content';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'context' => 'argument_page_content_1',
+      'override_title' => 0,
+      'override_title_text' => '',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+      'style' => 'naked',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = '911560c0-14b3-4686-b745-86ac34414255';
+    $display->content['new-911560c0-14b3-4686-b745-86ac34414255'] = $pane;
+    $display->panels['middle'][0] = 'new-911560c0-14b3-4686-b745-86ac34414255';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;

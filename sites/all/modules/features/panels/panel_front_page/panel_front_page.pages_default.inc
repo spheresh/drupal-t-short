@@ -58,6 +58,28 @@ function panel_front_page_default_page_manager_pages() {
       'region-team' => NULL,
       'region-contacts' => NULL,
     ),
+    'region-header' => array(
+      'style' => 'naked',
+    ),
+    'region-quote-slider' => array(
+      'style' => 'naked',
+    ),
+    'region-wtf' => array(
+      'style' => 'naked',
+    ),
+    'region-t-shorts' => array(
+      'style' => 'naked',
+    ),
+    'region-team' => array(
+      'style' => 'naked',
+    ),
+    'region-contacts' => array(
+      'style' => 'naked',
+    ),
+    'region-footer' => array(
+      'style' => 'naked',
+    ),
+    'style' => 'naked',
   );
   $display->cache = array();
   $display->title = '';
@@ -75,6 +97,7 @@ function panel_front_page_default_page_manager_pages() {
     $pane->cache = array();
     $pane->style = array(
       'settings' => NULL,
+      'style' => 'naked',
     );
     $pane->css = array();
     $pane->extras = array();
@@ -83,6 +106,30 @@ function panel_front_page_default_page_manager_pages() {
     $pane->uuid = 'fdf14b47-12d9-46e3-8a88-da6b0406a6ef';
     $display->content['new-fdf14b47-12d9-46e3-8a88-da6b0406a6ef'] = $pane;
     $display->panels['region-header'][0] = 'new-fdf14b47-12d9-46e3-8a88-da6b0406a6ef';
+    $pane = new stdClass();
+    $pane->pid = 'new-39e3ae3e-605e-45e8-bdf6-736d8d8a7bc4';
+    $pane->panel = 'region-header';
+    $pane->type = 'page_site_name';
+    $pane->subtype = 'page_site_name';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'linked' => 0,
+      'override_title' => 0,
+      'override_title_text' => '',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $pane->uuid = '39e3ae3e-605e-45e8-bdf6-736d8d8a7bc4';
+    $display->content['new-39e3ae3e-605e-45e8-bdf6-736d8d8a7bc4'] = $pane;
+    $display->panels['region-header'][1] = 'new-39e3ae3e-605e-45e8-bdf6-736d8d8a7bc4';
     $pane = new stdClass();
     $pane->pid = 'new-98f92d4c-7604-4da7-a4cb-8c6376adcf16';
     $pane->panel = 'region-header';
@@ -98,14 +145,15 @@ function panel_front_page_default_page_manager_pages() {
     $pane->cache = array();
     $pane->style = array(
       'settings' => NULL,
+      'style' => 'naked',
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 1;
+    $pane->position = 2;
     $pane->locks = array();
     $pane->uuid = '98f92d4c-7604-4da7-a4cb-8c6376adcf16';
     $display->content['new-98f92d4c-7604-4da7-a4cb-8c6376adcf16'] = $pane;
-    $display->panels['region-header'][1] = 'new-98f92d4c-7604-4da7-a4cb-8c6376adcf16';
+    $display->panels['region-header'][2] = 'new-98f92d4c-7604-4da7-a4cb-8c6376adcf16';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
