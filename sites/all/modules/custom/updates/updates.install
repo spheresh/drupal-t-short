@@ -57,5 +57,6 @@ function updates_update_7006() {
 
   _features_revert_module(array(
     'panel_front_page',
+    'content_type_t_short',
   ));
 }
