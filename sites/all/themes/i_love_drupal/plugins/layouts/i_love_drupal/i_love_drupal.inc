@@ -12,6 +12,7 @@ $plugin = array(
   'regions' => array(
     'region-header' => t('Header'),
     'region-quote-slider' => t('Quote slider'),
+    'region-add-quote' => t('Add quote'),
     'region-wtf' => t('Wtf?'),
     'region-t-shorts' => t('T-shorts'),
     'region-team' => t('Team'),

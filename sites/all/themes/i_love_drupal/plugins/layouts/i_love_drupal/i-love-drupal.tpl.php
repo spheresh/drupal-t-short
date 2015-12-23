@@ -17,6 +17,12 @@
   </section>
 <?php endif; ?>
 
+<?php if ($content['region-add-quote']): ?>
+  <section id="add-quote">
+    <?php print $content['region-add-quote']; ?>
+  </section>
+<?php endif; ?>
+
 <?php if ($content['region-wtf']): ?>
   <section id="wtf">
     <?php print $content['region-wtf']; ?>

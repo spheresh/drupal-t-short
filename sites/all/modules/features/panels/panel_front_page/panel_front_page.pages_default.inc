@@ -57,6 +57,7 @@ function panel_front_page_default_page_manager_pages() {
       'region-t-shorts' => NULL,
       'region-team' => NULL,
       'region-contacts' => NULL,
+      'region-add-quote' => NULL,
     ),
     'region-header' => array(
       'style' => 'naked',
@@ -153,6 +154,31 @@ function panel_front_page_default_page_manager_pages() {
     $pane->uuid = '3d98bc8b-8312-4e87-85d2-8eb167668bc1';
     $display->content['new-3d98bc8b-8312-4e87-85d2-8eb167668bc1'] = $pane;
     $display->panels['region-quote-slider'][0] = 'new-3d98bc8b-8312-4e87-85d2-8eb167668bc1';
+    $pane = new stdClass();
+    $pane->pid = 'new-c1b0a15b-46db-4656-b36e-9c2d39df3a0c';
+    $pane->panel = 'region-wtf';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => 'Wtf?',
+      'title' => '',
+      'body' => '<div class="wtf-wrapper"><h2>Что это?</h2><p>Мы любим Drupal. Если Вы любите Drupal так же как и мы, то этот сайт для Вас. Надеюсь, мы подняли Вам настроение. Кстати, <a href="#">зацените наши футболки</a></p></div>',
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'c1b0a15b-46db-4656-b36e-9c2d39df3a0c';
+    $display->content['new-c1b0a15b-46db-4656-b36e-9c2d39df3a0c'] = $pane;
+    $display->panels['region-wtf'][0] = 'new-c1b0a15b-46db-4656-b36e-9c2d39df3a0c';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
