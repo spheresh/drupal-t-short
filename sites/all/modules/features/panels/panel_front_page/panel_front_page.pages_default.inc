@@ -82,6 +82,12 @@ function panel_front_page_default_page_manager_pages() {
       'style' => 'naked',
     ),
     'style' => 'naked',
+    'region-add-quote' => array(
+      'style' => 'naked',
+    ),
+    'region-its-ok' => array(
+      'style' => 'naked',
+    ),
   );
   $display->cache = array();
   $display->title = '';
@@ -147,6 +153,7 @@ function panel_front_page_default_page_manager_pages() {
     $pane->cache = array();
     $pane->style = array(
       'settings' => NULL,
+      'style' => 'naked',
     );
     $pane->css = array();
     $pane->extras = array();
@@ -155,6 +162,32 @@ function panel_front_page_default_page_manager_pages() {
     $pane->uuid = 'f0141983-7a59-4d6b-9ea7-69347ce12e45';
     $display->content['new-f0141983-7a59-4d6b-9ea7-69347ce12e45'] = $pane;
     $display->panels['region-its-ok'][0] = 'new-f0141983-7a59-4d6b-9ea7-69347ce12e45';
+    $pane = new stdClass();
+    $pane->pid = 'new-dbac94d0-4097-4584-9155-e43936e095f4';
+    $pane->panel = 'region-its-ok';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => '',
+      'body' => '<p></p>',
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+      'style' => 'naked',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $pane->uuid = 'dbac94d0-4097-4584-9155-e43936e095f4';
+    $display->content['new-dbac94d0-4097-4584-9155-e43936e095f4'] = $pane;
+    $display->panels['region-its-ok'][1] = 'new-dbac94d0-4097-4584-9155-e43936e095f4';
     $pane = new stdClass();
     $pane->pid = 'new-3d98bc8b-8312-4e87-85d2-8eb167668bc1';
     $pane->panel = 'region-quote-slider';
@@ -166,6 +199,7 @@ function panel_front_page_default_page_manager_pages() {
     $pane->cache = array();
     $pane->style = array(
       'settings' => NULL,
+      'style' => 'naked',
     );
     $pane->css = array();
     $pane->extras = array();
@@ -220,13 +254,14 @@ function panel_front_page_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Wtf?',
       'title' => '',
-      'body' => '<div class="wtf-wrapper"><p>Мы любим Drupal. Если Вы любите Drupal так же как и мы, то этот сайт для Вас. Надеюсь, мы подняли Вам настроение. Кстати, <a href="#">зацените наши футболки</a>.</p></div>',
+      'body' => '<div class="wtf-wrapper"><p>Мы любим Drupal. Честно. Если Вы любите Drupal так же как и мы, то этот сайт для Вас. Надеюсь, мы подняли Вам настроение. Кстати, <a href="#">зацените наши футболки</a>.</p></div>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
     $pane->cache = array();
     $pane->style = array(
       'settings' => NULL,
+      'style' => 'naked',
     );
     $pane->css = array();
     $pane->extras = array();
