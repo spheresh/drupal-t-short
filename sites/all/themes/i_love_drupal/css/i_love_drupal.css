@@ -11,6 +11,53 @@ footer {
   background-color: #2d3e50;
 }
 
+header {
+  color: #fff;
+}
+
+header .inside {
+  margin: 0 !important;
+}
+
+header .panel-col-first {
+  text-align: center;
+  margin: 19px 0;
+}
+
+header .panel-col-first a {
+  display: block;
+}
+
+header .panel-col-first a img {
+  border-radius: 50%;
+  width: 35px;
+}
+
+header .panel-col-last {
+  margin: 15px 0;
+}
+
+header .panel-col-last ul {
+}
+
+header .panel-col-last ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  background-color: #49c9b0;
+  border-radius: 2px;
+}
+
+header .panel-col-last ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section h2,
+section h3 {
+  text-align: center;
+}
+
 section#quote-slider,
 section#wtf,
 section#team {
