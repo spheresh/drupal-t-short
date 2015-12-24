@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content type contact form feature.
+ */
+
+include_once 'content_type_contact_form.features.inc';

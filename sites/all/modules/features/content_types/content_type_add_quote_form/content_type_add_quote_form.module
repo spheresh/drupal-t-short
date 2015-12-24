@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content type add quote form feature.
+ */
+
+include_once 'content_type_add_quote_form.features.inc';

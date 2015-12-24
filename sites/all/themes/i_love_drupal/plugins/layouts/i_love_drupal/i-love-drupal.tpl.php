@@ -19,6 +19,8 @@
 
 <?php if ($content['region-add-quote']): ?>
   <section id="add-quote">
+    <h2>Предложите свою коронную шуточку о Drupal</h2>
+    <h3>И возможно она попадет в слайдер, что чуть выше.</h3>
     <?php print $content['region-add-quote']; ?>
   </section>
 <?php endif; ?>
@@ -54,7 +56,8 @@
 
 <?php if ($content['region-contacts']): ?>
   <section id="contacts">
-    <h2>Контакты</h2>
+    <h2>Не знаю зачем</h2>
+    <h3>Но Вы можете с нами связаться</h3>
     <?php print $content['region-contacts']; ?>
   </section>
 <?php endif; ?>

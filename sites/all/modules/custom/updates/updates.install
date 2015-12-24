@@ -63,7 +63,7 @@ function updates_update_7006() {
 }
 
 /**
- * Enable.
+ * Enable & revert.
  */
 function updates_update_7007() {
   module_enable(array(
@@ -76,5 +76,20 @@ function updates_update_7007() {
     'view_t_shorts',
     'panel_front_page',
     'panel_mini_footer',
+  ));
+}
+
+/**
+ * Enable & revert.
+ */
+function updates_update_7008() {
+  module_enable(array(
+    'webform',
+    'content_type_add_quote_form',
+    'content_type_contact_form',
+  ));
+
+  _features_revert_module(array(
+    'panel_front_page',
   ));
 }
