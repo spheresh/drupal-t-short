@@ -254,7 +254,7 @@ function panel_front_page_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Wtf?',
       'title' => '',
-      'body' => '<div class="wtf-wrapper"><p>Мы любим Drupal. Честно. Если Вы любите Drupal так же как и мы, то этот сайт для Вас. Надеюсь, мы подняли Вам настроение. Кстати, <a href="#">зацените наши футболки</a>.</p></div>',
+      'body' => '<div class="wtf-wrapper"><p>Мы любим Drupal. Честно. Если Вы любите Drupal так же как и мы, то этот сайт для Вас. Надеюсь, мы подняли Вам настроение. Кстати, <a href="#t-shorts">зацените наши футболки</a>.</p></div>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
