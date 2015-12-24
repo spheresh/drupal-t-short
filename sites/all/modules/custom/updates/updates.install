@@ -93,3 +93,12 @@ function updates_update_7008() {
     'panel_front_page',
   ));
 }
+
+/**
+ * Revert.
+ */
+function updates_update_7009() {
+  _features_revert_module(array(
+    'view_t_shorts',
+  ));
+}

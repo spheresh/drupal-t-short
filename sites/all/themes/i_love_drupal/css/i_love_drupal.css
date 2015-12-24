@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Francois+One|Anton|Archivo+Black);
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header,
+footer {
+  background-color: #2d3e50;
+}
+
+section#quote-slider,
+section#wtf,
+section#team {
+  background-color: #49c9b0;
+}
+
+section#its-ok {
+  background-color: #d05f61;
+}
+
+section#add-quote h2,
+section#t-shorts h2,
+section#contacts h2,
+section#add-quote h3,
+section#t-shorts h3,
+section#contacts h3 {
+  color: #49c9b0;
+}
+
+section#its-ok h2,
+section#wtf h2,
+section#team h2 {
+  color: #fff;
+}
