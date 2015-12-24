@@ -72,5 +72,6 @@ function updates_update_7007() {
 
   _features_revert_module(array(
     'view_t_shorts',
+    'panel_front_page',
   ));
 }

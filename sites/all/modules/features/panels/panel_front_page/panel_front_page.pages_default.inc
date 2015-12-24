@@ -58,6 +58,7 @@ function panel_front_page_default_page_manager_pages() {
       'region-team' => NULL,
       'region-contacts' => NULL,
       'region-add-quote' => NULL,
+      'region-its-ok' => NULL,
     ),
     'region-header' => array(
       'style' => 'naked',
@@ -135,6 +136,25 @@ function panel_front_page_default_page_manager_pages() {
     $pane->uuid = '5d813ac3-fcba-4c9d-ad84-2fcf822e8e72';
     $display->content['new-5d813ac3-fcba-4c9d-ad84-2fcf822e8e72'] = $pane;
     $display->panels['region-header'][0] = 'new-5d813ac3-fcba-4c9d-ad84-2fcf822e8e72';
+    $pane = new stdClass();
+    $pane->pid = 'new-f0141983-7a59-4d6b-9ea7-69347ce12e45';
+    $pane->panel = 'region-its-ok';
+    $pane->type = 'pane_messages';
+    $pane->subtype = 'pane_messages';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array();
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'f0141983-7a59-4d6b-9ea7-69347ce12e45';
+    $display->content['new-f0141983-7a59-4d6b-9ea7-69347ce12e45'] = $pane;
+    $display->panels['region-its-ok'][0] = 'new-f0141983-7a59-4d6b-9ea7-69347ce12e45';
     $pane = new stdClass();
     $pane->pid = 'new-3d98bc8b-8312-4e87-85d2-8eb167668bc1';
     $pane->panel = 'region-quote-slider';

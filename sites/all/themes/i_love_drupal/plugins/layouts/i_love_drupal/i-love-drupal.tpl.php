@@ -23,6 +23,14 @@
   </section>
 <?php endif; ?>
 
+<?php if ($content['region-its-ok']): ?>
+  <section id="its-ok">
+    <h2>Бывает..</h2>
+    <?php print $shit_happens; ?>
+    <?php print $content['region-its-ok']; ?>
+  </section>
+<?php endif; ?>
+
 <?php if ($content['region-wtf']): ?>
   <section id="wtf">
     <h2>Что это?</h2>
