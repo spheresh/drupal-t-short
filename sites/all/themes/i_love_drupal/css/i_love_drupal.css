@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Francois+One|Anton|Archivo+Black);
 
 body {
-  margin: 0 !important;
-  padding: 0 !important;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0 !important;
 }
 
 header,
