@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content type team member feature.
+ */
+
+include_once 'content_type_team_member.features.inc';

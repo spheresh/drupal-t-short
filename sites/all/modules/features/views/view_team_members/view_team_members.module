@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View team members feature.
+ */
+
+include_once 'view_team_members.features.inc';

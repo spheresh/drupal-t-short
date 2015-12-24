@@ -68,10 +68,13 @@ function updates_update_7006() {
 function updates_update_7007() {
   module_enable(array(
     'views_load_more',
+    'content_type_team_member',
+    'view_team_members',
   ));
 
   _features_revert_module(array(
     'view_t_shorts',
     'panel_front_page',
+    'panel_mini_footer',
   ));
 }
